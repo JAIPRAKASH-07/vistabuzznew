@@ -7,7 +7,7 @@ const Home = () => {
   const skills = [
     { icon: <Code2 className="w-6 h-6" />, name: 'React.js', description: 'Building modern UIs' },
     { icon: <Palette className="w-6 h-6" />, name: 'Frontend', description: 'HTML5, CSS3, JavaScript' },
-    { icon: <Database className="w-6 h-6" />, name: 'Backend', description: 'Node.js & MySQL' },
+    { icon: <Database className="w-6 h-6" />, name: 'Backend', description: 'Node.js & Express.js ' },
     { icon: <GitBranch className="w-6 h-6" />, name: 'Version Control', description: 'Git & GitHub' },
   ];
 
@@ -81,7 +81,7 @@ const Home = () => {
       <p className="text-lg font-semibold">Matryx Medisys</p>
 
       {/* Company 2 (New) */}
-      <p className="text-muted-foreground mt-4">RMS - Afrov Company</p>
+      <p className="text-muted-foreground mt-4">RMS - Aforv Company</p>
       <p className="text-sm text-muted-foreground">Role: Software Developer</p>
 
       <Link to="/about" className="inline-block mt-6">
