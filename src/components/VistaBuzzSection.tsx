@@ -21,9 +21,9 @@ const channels = [
     color: "from-purple-500 to-pink-500",
   },
   {
-    name: "VistaBuzz News",
+    name: "VistaBuzz Facts",
     logo: vistabuzzNews,
-    url: "https://www.youtube.com/@vistabuzznews",
+    url: "https://www.youtube.com/@visatbuzzfacts",
     description: "Stay updated with the latest news and current affairs",
     color: "from-blue-500 to-cyan-500",
   },
@@ -56,7 +56,7 @@ const VistaBuzzSection = () => {
             <span className="text-gradient">VistaBuzz</span> Network
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Beyond coding, I run VistaBuzz(YouTube) – a multi-channel media network delivering tech, entertainment, and news content.
+            Beyond coding, I run VistaBuzz(YouTube) – a multi-channel media network delivering tech, entertainment, and facts content.
           </p>
         </div>
 
